@@ -35,6 +35,6 @@ public class CuentaBancaria {
         CuentaBancaria cuenta = new CuentaBancaria();
         cuenta.depositar(500);
         cuenta.retirar(200);
-        System.out.println("Saldo: " + cuenta.getSaldo()); // debe imprimir 300
+        System.out.println("Saldo: " + cuenta.getSaldo());
     }
 }
